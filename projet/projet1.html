@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="/CSS/style.css"> <!-- Fichier CSS par défaut -->
+  <link rel="stylesheet" href="/CSS/theme.css"> <!-- Fichier CSS pour le thème sombre/claire -->
+  <link rel="stylesheet" href="/CSS/responsive.css"> <!-- Fichier CSS pour responsive -->
+  <title>Portfolio - Alban GRAGLIA</title>
+</head>
+
+<body class="light-mode">
+  <header>
+    <div class="boxed">
+      <div class="flex align-center space-between">
+        <button onclick="OpenMenu()" class="menu-button-phone">
+          <span class="material-icons">menu</span>
+        </button>
+        <a href="/" class="header-logo">
+          <img src="/img/no-image.jpg" alt="NO IMAGE">
+        </a>
+        <ul class="header-menu">
+          <li><a href="/#home">Accueil</a></li>
+          <li><a href="/#projets">Projets</a></li>
+          <li><a href="#learn-more">À propos</a></li>
+          <li><a href="#outils">Outils</a></li>
+          <li><a href="/#contacts">Contacts</a></li>
+        </ul>
+        <button class="theme-switch" id="theme-switch">
+          <span class="material-icons">light_mode</span>
+        </button>
+      </div>
+  </header>
+
+
+  <!-- Image -->
+  <div class="slider" id="home">
+    <div class="slider-content">
+      <img src="/img/projet/Berceuse Noire.png" alt="BERCEUSE NOIRE" class="img-projet1">
+      <h3>Berceuse Noire</h3>
+      <a href="#learn-more">
+      </a>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- À propos du projet -->
+  <div class="section light" id="learn-more">
+    <div class="boxed">
+      <div class="flex toColumn mCenter">
+        <div class="w40 wm100">
+          <h2>À propos</h2>
+        </div>
+
+
+        <div class="w60 wm100">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi velit justo, congue non velit non,
+            sollicitudin accumsan elit. Phasellus sed dolor dictum, finibus ex ullamcorper, maximus erat. Suspendisse
+            sit amet pulvinar ipsum. Nullam ultricies ante vehicula odio molestie iaculis. Sed pharetra diam semper sem
+            lacinia elementum. Morbi hendrerit, nisl et rhoncus imperdiet, diam odio venenatis dui, vel dapibus magna
+            magna ut dolor. Nunc massa sapien, ultricies sit amet fermentum ac, eleifend a nisi. Integer commodo
+            consequat euismod. Suspendisse ac orci ipsum. Nam nec justo urna. Nullam tincidunt sit amet justo ac
+            lobortis. Proin sit amet velit vel orci venenatis dictum. Sed elit dui, commodo porttitor consectetur quis,
+            gravida vel eros. Maecenas congue tempus sagittis. Ut imperdiet odio nec purus tincidunt ultricies. Aliquam
+            pellentesque massa non ante malesuada, quis tincidunt urna finibus.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- Outils Utilisé -->
+  <div class="section dark" id="outils">
+    <div class="boxed text-center">
+      <h2>Outils utilisé :</h2>
+      <div class="flex toColumn gap20">
+
+        <div class="w33 wm80 skill"> <!-- Compétence 1: WEB -->
+          <img src="img/logo/web.png" alt="WEB">
+          <h3>Développement WEB</h3>
+          <p> HTML, CSS, JavaScript </p>
+        </div>
+
+        <div class="w33 wm80 skill"> <!-- Compétence 2: 3D -->
+          <img src="img/logo/blender.png" alt="3D">
+          <h3>3D</h3>
+          <p> Blender </p>
+        </div>
+
+        <div class="w33 wm80 skill"> <!-- Compétence 3: Vidéo -->
+          <img src="img/logo/video.png" alt="VIDEO">
+          <h3>Montage Vidéo</h3>
+          <p> Wondershare Filmora, DaVinci Resolve, Adobe Premiere Pro </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+</body>
+<script src="/JS/script.js"></script>
+
+</html>

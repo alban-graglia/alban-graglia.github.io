@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@300;400;500;600;700;900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+
+/* Paramètres */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 100px;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.5em;
+}
+
+.slider-content p {
+  font-size: 2rem;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.boxed {
+  max-width: 1280px;
+  margin-inline: auto
+}
+
+.flex {
+  display: flex
+}
+
+.light {
+  background: var(--slider-bg1-color);
+  color: var(--slider-text1-color);
+}
+
+.dark {
+  background: var(--slider-bg2-color);
+  color: var(--slider-text2-color);
+}
+
+.w25 {
+  width: 25%
+}
+
+.w32 {
+  width: 32%
+}
+
+.w33 {
+  width: 33.3%
+}
+
+.w40 {
+  width: 40%
+}
+
+.w60 {
+  width: 50%
+}
+
+.gap20 {
+  gap: 20px
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.space-between {
+  justify-content: space-between
+}
+
+.align-center {
+  align-items: center
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--header-bg-color);
+  z-index: 1000;
+  padding-block: 10px;
+  box-shadow:
+    0px 5px 10px var(--header-bg-shadow1-color),
+    0px 1px 5px var(--header-bg-shadow2-color);
+}
+
+.header-logo {
+  display: block;
+  z-index: 999;
+}
+
+.header-logo img {
+  width: 75px;
+}
+
+header .material-icons {
+  font-size: 40px
+}
+
+.menu-button-phone {
+  display: none;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.header-menu li a {
+  text-decoration: none;
+  color: var(--header-text-color);
+  padding: 20px;
+  display: block;
+  box-sizing: border-box;
+  transition: 0.2 s ease
+}
+
+.header-menu li a:hover {
+  background: var(--header-hover-color);
+}
+
+.theme-switch,
+.menu-button-phone {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--header-text-color)
+}
+
+
+
+
+
+
+/* Slider */
+.slider {
+  width: 100%;
+  height: 90vh;
+  aspect-ratio: 16/9;
+  background-image: url(../img/background.jpg);
+  filter: brightness(var(--bg-brightness));
+  background-attachment: fixed;
+  position: relative;
+}
+
+.slider-background {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+}
+
+.slider-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.slider-content a p {
+  font-family: "Shadows Into Light Two", cursive;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: underline;
+  color: var(--slider-text0-color);
+  font-size: 16px;
+}
+
+.slider .img-projet1 {
+  width: 50vh;
+  height: 50vh;
+  object-fit: cover;
+}
+
+
+
+
+
+
+/* Projets */
+.projet {
+  height: auto;
+  aspect-ratio: 1/1.5;
+  position: relative;
+
+}
+
+.projet a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: var(--projet-text-color);
+}
+
+.projet img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.75);
+  transition: 0.4s ease;
+}
+
+.projet:hover img {
+  filter: brightness(1);
+}
+
+.projet h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  width: max-content;
+  opacity: 0;
+  transition: 0.4s ease
+}
+
+.projet:hover h3 {
+  opacity: 0.95;
+}
+
+
+
+
+
+
+/* Compétences */
+.skill {
+  background: var(--skill-bg-color);
+  border-radius: 15px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.skill img {
+  width: 100px;
+  height: 100px;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+}
+
+.skill h3 {
+  font-size: 1.75rem;
+  margin-top: 10 px;
+}
+
+
+
+
+
+
+/* Contacts */
+.contact {
+  border: 2px dashed var(--contact-border-color);
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 320px;
+}
+
+.contact-icon {
+  display: block;
+  font-size: 40px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: var(--slider-text2-color)
+}
+
+.contact a .contact-img {
+  display: inline-block;
+  margin: 0 auto;
+  width: 30px;
+  height: 30px;
+}
+
+.contact-name {
+  display: block;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+.contact-content {
+  display: block;
+  font-size: 1.2rem
+}
+
+
+
+
+
+
+/* Balise Scroll */
+#home,
+#projets,
+#competences,
+#learn-more,
+#contacts {
+  scroll-margin-top: 95px;
+  /* Hauteur du header */
+}

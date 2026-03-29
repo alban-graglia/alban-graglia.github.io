@@ -1,0 +1,70 @@
+/***************************/
+/*   Fichier choix thème   */
+/***************************/
+
+
+
+/***************/
+/* Thème clair */
+/***************/
+body.light-mode {
+  --bg-brightness: 1;                                /*Luminosité background*/
+  
+  /*Header*/
+  --header-bg-color: #f8fbff;                      /*Background header*/
+  --header-bg-shadow1-color: rgba(0, 0, 0, 0.15);  /*Ombre principale*/
+  --header-bg-shadow2-color: rgba(0, 0, 0, 0.12);  /*Ombre secondaire*/
+  --header-text-color: #1f2933;                    /*Texte header*/
+  --header-hover-color: #e6f2ff;                   /*Cadre hover*/
+
+  /*Slider*/
+  --slider-bg1-color: #ffffff;                     /*Background principale*/
+  --slider-bg2-color: #e5effa;                     /*Background secondaire*/
+  --slider-text0-color: #000;                      /*Texte accueil*/
+  --slider-text1-color: #1f2933;                   /*Texte background principale*/
+  --slider-text2-color: #0f172a;                   /*Texte background secondaire*/
+
+  /*Projets*/
+  --projet-text-color: #ffffff;                    /*Texte sur projets */
+
+  /*Compétences*/
+  --skill-bg-color: #c7e0ff;                       /*Cadre compétences*/
+
+  /*Contacts*/
+  --contact-border-color: #9ecbff;                 /*Cadre contact*/
+}
+
+
+
+
+
+
+/****************/
+/* Thème sombre */
+/****************/
+body.dark-mode {
+  --bg-brightness: 0.5;                              /*Luminosité background*/
+  
+  /*Header*/
+  --header-bg-color: #0f172a;                      /*Background*/
+  --header-bg-shadow1-color: rgba(0, 0, 0, 0.6);   /*Ombre principale*/
+  --header-bg-shadow2-color: rgba(0, 0, 0, 0.3);   /*Ombre secondaire*/
+  --header-text-color: #e5efff;                    /*Texte*/
+  --header-hover-color: #1e293b;                   /*Cadre hover*/
+
+  /*Slider*/
+  --slider-bg1-color: #070b1c;                     /*Background principal*/
+  --slider-bg2-color: #020617;                     /*Background secondaire*/
+  --slider-text0-color: #000;                      /*Texte accueil*/
+  --slider-text1-color: #e5efff;                   /*Texte background principal*/
+  --slider-text2-color: #c7e0ff;                   /*Texte background secondaire*/
+
+  /*Projets*/
+  --projet-text-color: #ffffff;                    /*Texte sur projets*/
+
+  /*Compétences*/
+  --skill-bg-color: #1e293b;                       /*Cadre compétences*/
+
+  /*Contacts*/
+  --contact-border-color: #9ecbff;                 /*Cadre contact*/
+}

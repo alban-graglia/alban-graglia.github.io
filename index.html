@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/style.css"> <!-- Fichier CSS par défaut -->
+  <link rel="stylesheet" href="CSS/theme.css"> <!-- Fichier CSS pour le thème sombre/claire -->
+  <link rel="stylesheet" href="CSS/responsive.css"> <!-- Fichier CSS pour responsive -->
+  <title>Projet 1 - Alban GRAGLIA</title>
+</head>
+
+<body class="light-mode">
+  <header>
+    <div class="boxed">
+      <div class="flex align-center space-between">
+        <button onclick="OpenMenu()" class="menu-button-phone">
+          <span class="material-icons">menu</span>
+        </button>
+        <a href="/" class="header-logo">
+          <img src="img/no-image.jpg" alt="NO IMAGE">
+        </a>
+        <ul class="header-menu">
+          <li><a href="#home">Accueil</a></li>
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#competences">Compétences</a></li>
+          <li><a href="#learn-more">À propos</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+        </ul>
+        <button class="theme-switch" id="theme-switch">
+          <span class="material-icons">light_mode</span>
+        </button>
+      </div>
+  </header>
+
+
+  <!-- Accueil -->
+  <div class="slider" id="home">
+    <div class="slider-content">
+      <h1>Alban GRAGLIA</h1>
+      <p>Lycée polyvalent Martin Malvy</p>
+      <a href="#learn-more">
+        <p>En savoir plus</p>
+      </a>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <!-- Projets -->
+  <div class="section light" id="projets">
+    <div class="boxed text-center">
+      <h2> Projets </h2>
+      <div class="flex wrap gap20 space-between">
+
+        <div class="w32 wm47 projet"> <!-- Projet 1: -->
+          <a href="projet/projet1.html">
+            <img src="img/no-image.jpg" alt="NO IMAGE">
+            <h3>No image</h3>
+          </a>
+        </div>
+
+        <div class="w32 wm47 projet"> <!-- Projet 2: -->
+          <a href="img/no-image.jpg">
+            <img src="/img/no-image.jpg" alt="NO IMAGE">
+            <h3>No image</h3>
+          </a>
+        </div>
+
+        <div class="w32 wm47 projet"> <!-- Projet 3: -->
+          <a href="img/no-image.jpg">
+            <img src="img/no-image.jpg" alt="NO IMAGE">
+            <h3>No image</h3>
+          </a>
+        </div>
+
+        <div class="w32 wm47 projet"> <!-- Projet 4: -->
+          <a href="img/no-image.jpg">
+            <img src="img/no-image.jpg" alt="NO IMAGE">
+            <h3>No image</h3>
+          </a>
+        </div>
+
+        <div class="w32 wm47 projet"> <!-- Projet 5: -->
+          <a href="img/no-image.jpg">
+            <img src="img/no-image.jpg" alt="NO IMAGE">
+            <h3>No image</h3>
+          </a>
+        </div>
+
+        <div class="w32 wm47 projet"> <!-- Projet 6: -->
+          <a href="img/no-image.jpg">
+            <img src="img/no-image.jpg" alt="NO IMAGE">
+            <h3>No image</h3>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- Compétences -->
+  <div class="section dark" id="competences">
+    <div class="boxed text-center">
+      <h2>Compétences :</h2>
+      <div class="flex toColumn gap20">
+
+        <div class="w25 wm80 skill"> <!-- Compétence 1: WEB -->
+          <img src="img/logo/web.png" alt="WEB">
+          <h3>Développement WEB</h3>
+          <p> HTML, CSS, JavaScript </p>
+        </div>
+
+        <div class="w25 wm80 skill"> <!-- Compétence 2: 3D -->
+          <img src="img/logo/blender.png" alt="3D">
+          <h3>3D</h3>
+          <p> Blender </p>
+        </div>
+
+        <div class="w25 wm80 skill"> <!-- Compétence 3: Vidéo -->
+          <img src="img/logo/video.png" alt="VIDEO">
+          <h3>Montage Vidéo</h3>
+          <p> Wondershare Filmora, DaVinci Resolve, Adobe Premiere Pro </p>
+        </div>
+
+        <div class="w25 wm80 skill"> <!-- Compétence 4: UX/UI -->
+          <img src="img/logo/ux-ui.svg" alt="UX/UI">
+          <h3>UX/UI</h3>
+          <p>Figma</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- À propos de moi -->
+  <div class="section light" id="learn-more">
+    <div class="boxed">
+      <div class="flex toColumn mCenter">
+        <div class="w40 wm100">
+          <h2>À propos de moi</h2>
+        </div>
+
+
+        <div class="w60 wm100">
+          <p>Lycéen passionné, j'associe le code et l'image. Du développement web à la réalisation audiovisuelle, en
+            passant par la modélisation 3D, j'ai développé des compétences dans plusieurs domaines du multimédia en
+            autodidacte. Motivé et déterminé, je souhaite poursuivre mon apprentissage dans les différentes pratiques
+            des métiers de la création numérique. Je cherche avant tout à relever les défis des contraintes techniques
+            et susciter des émotions à travers mes projets.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- Contacts -->
+  <div class="section dark" id="contacts">
+    <div class="boxed text-center">
+      <h2>Contacts :</h2>
+      <div class="flex toColumn space-between mgap20">
+
+        <div class="w33 wm80 contact"> <!-- Contact 1: Gmail -->
+          <span class="material-icons contact-icon">mail</span>
+          <span class="contact-name">E-mail</span>
+          <span class="contact-content">alban.graglia.pro@gmail.com</span>
+        </div>
+
+        <div class="w33 wm80 contact"> <!-- Contact 2: Instagram -->
+          <a href="https://www.instagram.com/alban.graglia.pro/">
+            <img class="contact-img" src="img/logo/instagram.png" alt="INSTAGRAM">
+            <span class="contact-name">Instagram</span>
+            <span class="contact-content">@alban.graglia.pro</span>
+          </a>
+        </div>
+
+        <div class="w33 wm80 contact"> <!-- contact  3: GitHub -->
+          <a href="https://github.com/alban-graglia">
+            <img class="contact-img" src="img/logo/github.png" alt="GITHUB">
+            <span class="contact-name">GitHub</span>
+            <span class="contact-content">@alban-graglia</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+<script src="JS/script.js"></script>
+
+</html>
