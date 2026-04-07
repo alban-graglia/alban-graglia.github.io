@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="/CSS/style.css"> <!-- Fichier CSS par défaut -->
+  <link rel="stylesheet" href="/CSS/theme.css"> <!-- Fichier CSS pour le thème sombre/claire -->
+  <link rel="stylesheet" href="/CSS/responsive.css"> <!-- Fichier CSS pour responsive -->
+  <title>Projet 2 - Alban GRAGLIA</title>
+</head>
+
+<body class="light-mode">
+  <header>
+    <div class="boxed">
+      <div class="flex align-center space-between">
+        <button onclick="OpenMenu()" class="menu-button-phone">
+          <span class="material-icons">menu</span>
+        </button>
+        <a href="/" class="header-logo">
+          <img src="img/alban-graglia.jpg" alt="ALBAN GRAGLIA">
+        </a>
+        <ul class="header-menu">
+          <li><a href="/#home">Accueil</a></li>
+          <li><a href="/#projets">Projets</a></li>
+          <li><a href="#learn-more">À propos</a></li>
+          <li><a href="#outils">Outils</a></li>
+          <li><a href="/#contacts">Contacts</a></li>
+        </ul>
+        <button class="theme-switch" id="theme-switch">
+          <span class="material-icons">light_mode</span>
+        </button>
+      </div>
+  </header>
+
+
+  <!-- Image -->
+  <div class="slider" id="home">
+    <div class="slider-content">
+      <img src="/img/projet/bureau-iso.png" alt="BUREAU ISO" class="img-projet2">
+      <h3>Bureau isométrique</h3>
+      <a href="#learn-more">
+      </a>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- À propos du projet -->
+  <div class="section light" id="learn-more">
+    <div class="boxed">
+      <div class="flex toColumn mCenter">
+        <div class="w40 wm100">
+          <h2>À propos</h2>
+        </div>
+
+
+        <div class="w60 wm100">
+          <p>
+            J'ai voulu m'exercer à la modélisation isométrique pour créer une scène d'intérieur minimaliste. L'idée était de concevoir un espace cosy et organisé.
+            Ce projet m'a permis d'apprendre à gérer une composition dans un espace clos et à optimiser la géométrie pour un rendu 'low-poly' propre. Si je devais l'améliorer, j'ajouterais quelques détails de texture, une meilleure lumière d'ambiance, ainsi que d'avantage d'élément décoratif tel qu'un pot à crayons, une plante verte ou bien encore des livres.
+        </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- Outils Utilisé -->
+  <div class="section dark" id="outils">
+    <div class="boxed text-center">
+      <h2>Outils utilisé :</h2>
+      <div class="flex toColumn gap20">
+
+        <div class="w33 wm80 skill"> <!-- Blender pour le rendu 3d -->
+          <img src="/img/logo/blender.png" alt="BLENDER">
+          <h3>Blender</h3>
+          <p> 3D </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+</body>
+<script src="/JS/script.js"></script>
+
+</html>
