@@ -49,6 +49,12 @@ p {
   display: flex
 }
 
+.flex2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .light {
   background: var(--slider-bg1-color);
   color: var(--slider-text1-color);
@@ -85,6 +91,10 @@ p {
 
 .gap20 {
   gap: 20px
+}
+
+.gap40 {
+  gap: 40px
 }
 
 .wrap {

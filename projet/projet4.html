@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="/CSS/style.css"> <!-- Fichier CSS par défaut -->
+  <link rel="stylesheet" href="/CSS/theme.css"> <!-- Fichier CSS pour le thème sombre/claire -->
+  <link rel="stylesheet" href="/CSS/responsive.css"> <!-- Fichier CSS pour responsive -->
+  <title>Projet 4 - Alban GRAGLIA</title>
+</head>
+
+<body class="light-mode">
+  <header>
+    <div class="boxed">
+      <div class="flex align-center space-between">
+        <button onclick="OpenMenu()" class="menu-button-phone">
+          <span class="material-icons">menu</span>
+        </button>
+        <a href="/" class="header-logo">
+          <img src="/img/alban-graglia.jpg" alt="ALBAN GRAGLIA">
+        </a>
+        <ul class="header-menu">
+          <li><a href="/#home">Accueil</a></li>
+          <li><a href="/#projets">Projets</a></li>
+          <li><a href="#learn-more">À propos</a></li>
+          <li><a href="#outils">Outils</a></li>
+          <li><a href="/#contacts">Contacts</a></li>
+        </ul>
+        <button class="theme-switch" id="theme-switch">
+          <span class="material-icons">light_mode</span>
+        </button>
+      </div>
+  </header>
+
+
+  <!-- Image -->
+  <div class="slider" id="home">
+    <div class="slider-content">
+      <img src="/img/projet/mistral-rpg.png" alt="MISTRAL RPG" class="img-projet4">
+      <h3>Mistral RPG</h3>
+      <a href="#learn-more">
+      </a>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- À propos du projet -->
+  <div class="section light" id="learn-more">
+    <div class="boxed">
+      <div class="flex toColumn mCenter">
+        <div class="w40 wm100">
+          <h2>À propos</h2>
+        </div>
+
+
+        <div class="w60 wm100">
+          <p>
+            L'objectif de ce projet était d'explorer les capacités des IA génératives dans le domaine du jeu vidéo. J'ai conçu une expérience de jeu de rôle (RPG) où l'IA ne se contente pas d'aider au code, mais devient le Maître du Jeu. Chaque partie est unique car le scénario s'adapte en temps réel aux choix du joueur.
+            Côté développement, j'ai utilisé l'API de Mistral AI pour générer la narration textuelle. Pour l'immersion visuelle, le jeu appelle une IA de génération d'images afin d'illustrer les scènes décrites. J'ai également programmé un système d'inventaire persistant, permettant au joueur de ramasser et d'utiliser des objets qui influencent la suite de son aventure.
+            Le plus grand défi a été de structurer les prompts pour que l'IA garde une cohérence narrative et respecte les règles du jeu. Ce projet m'a permis de comprendre les enjeux de l'ingénierie de prompt (Prompt Engineering).
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- Outils Utilisé -->
+  <div class="section dark" id="outils">
+    <div class="boxed text-center">
+      <h2>Outils utilisé :</h2>
+      <div class="flex2 toColumn gap20">
+
+        <div class="w33 wm80 skill"> <!-- VS Code pour le code -->
+          <img src="/img/logo/VS-Code.png" alt="VS CODE">
+          <h3>Virtual Studio Code</h3>
+          <p> Codage </p>
+        </div>
+
+        <div class="w33 wm80 skill"> <!-- GitHub pour l'hébergement -->
+          <img src="/img/logo/github.png" alt="GITHUB">
+          <h3>Github</h3>
+          <p> Hébergement </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+</body>
+<script src="/JS/script.js"></script>
+
+</html>
