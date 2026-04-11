@@ -224,7 +224,25 @@ header .material-icons {
 
 .slider .img-projet1 {
   width: 50vh;
+  height: 75vh;
+  object-fit: cover;
+}
+
+.slider .img-projet2 {
+  width: 75vh;
   height: 50vh;
+  object-fit: cover;
+}
+
+.slider .img-projet3 {
+  width: 50vh;
+  height: 75vh;
+  object-fit: cover;
+}
+
+.slider .img-projet4 {
+  width: 50vh;
+  height: 75vh;
   object-fit: cover;
 }
 
@@ -258,6 +276,7 @@ header .material-icons {
 }
 
 .projet:hover img {
+
   filter: brightness(1);
 }
 
@@ -267,9 +286,10 @@ header .material-icons {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 2rem;
-  width: max-content;
+  width: 90%;
+  text-align: center;
   opacity: 0;
-  transition: 0.4s ease
+  transition: 0.4s ease;
 }
 
 .projet:hover h3 {

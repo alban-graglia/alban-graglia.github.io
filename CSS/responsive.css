@@ -104,6 +104,18 @@
     width: 100% !important;
   }
 
+  .hw47 {
+    height: 47%;
+  }
+
+  .hw80 {
+    height: 80%;
+  }
+
+  .hw100 {
+    height: 100%;
+  }
+
   .mgap20 {
     gap: 20px !important;
   }
@@ -114,5 +126,29 @@
 
   .boxed {
     max-width: 90%;
+  }
+
+  .slider .img-projet1 {
+  width: 40vh;
+  height: 67.5vh;
+  object-fit: cover;
+  }
+
+  .slider .img-projet2 {
+    width: 50vh;
+    height: 40vh;
+    object-fit: cover;
+  }
+
+  .slider .img-projet3 {
+    width: 40vh;
+    height: 67.5vh;
+    object-fit: cover;
+  }
+
+  .slider .img-projet4 {
+    width: 40vh;
+    height: 67.5vh;
+    object-fit: cover;
   }
 }
