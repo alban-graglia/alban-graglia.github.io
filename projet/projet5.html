@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="/CSS/style.css"> <!-- Fichier CSS par défaut -->
+  <link rel="stylesheet" href="/CSS/theme.css"> <!-- Fichier CSS pour le thème sombre/claire -->
+  <link rel="stylesheet" href="/CSS/responsive.css"> <!-- Fichier CSS pour responsive -->
+  <title>Projet 5 - Alban GRAGLIA</title>
+</head>
+
+<body class="light-mode">
+  <header>
+    <div class="boxed">
+      <div class="flex align-center space-between">
+        <button onclick="OpenMenu()" class="menu-button-phone">
+          <span class="material-icons">menu</span>
+        </button>
+        <a href="/" class="header-logo">
+          <img src="/img/alban-graglia.jpg" alt="ALBAN GRAGLIA">
+        </a>
+        <ul class="header-menu">
+          <li><a href="/#home">Accueil</a></li>
+          <li><a href="/#projets">Projets</a></li>
+          <li><a href="#learn-more">À propos</a></li>
+          <li><a href="#outils">Outils</a></li>
+          <li><a href="/#contacts">Contacts</a></li>
+        </ul>
+        <button class="theme-switch" id="theme-switch">
+          <span class="material-icons">light_mode</span>
+        </button>
+      </div>
+  </header>
+
+
+  <!-- Image -->
+  <div class="slider" id="home">
+    <div class="slider-content">
+      <img src="/img/projet/Home-Tools/home.png" alt="HOME TOOLS - HOME" class="img-projet5">
+      <img src="/img/projet/Home-Tools/temperature-menu.png" alt="HOME TOOLS - TEMPERATURE MENU" class="img-projet5">
+      <img src="/img/projet/Home-Tools/setting.png" alt="HOME TOOLS - SETTINGS" class="img-projet5">
+      <h3>Home Tools</h3>
+      <a href="#learn-more">
+      </a>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- À propos du projet -->
+  <div class="section light" id="learn-more">
+    <div class="boxed">
+      <div class="flex toColumn mCenter">
+        <div class="w40 wm100">
+          <h2>À propos</h2>
+        </div>
+
+
+        <div class="w60 wm100">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus semper sed risus eget congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec fringilla ligula sit amet urna scelerisque suscipit. Sed vitae nisi sit amet mi scelerisque lacinia. Praesent vel vehicula augue. Nunc vitae imperdiet ipsum. Vivamus mattis dui nec libero malesuada euismod. Nunc hendrerit hendrerit dolor a hendrerit. Aenean eget cursus tellus. Duis egestas ex eget lorem elementum, non scelerisque dui accumsan. Duis sed massa hendrerit, rhoncus odio et, finibus quam. Phasellus diam quam, viverra et sem vitae, consequat blandit ipsum. Proin aliquet dolor vel malesuada aliquet. Integer id lacus sem. Nullam cursus diam nunc, sit amet pulvinar ipsum dignissim in.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- Outils Utilisé -->
+  <div class="section dark" id="outils">
+    <div class="boxed text-center">
+      <h2>Outils utilisé :</h2>
+      <div class="flex2 toColumn gap20">
+
+        <div class="w33 wm80 skill"> <!-- Penpote pour le code -->
+          <img src="/img/logo/Penpot.webp" alt="Penpot">
+          <h3>Penpot</h3>
+          <p> Création d'UI </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+</body>
+<script src="/JS/script.js"></script>
+
+</html>

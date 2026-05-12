@@ -296,6 +296,14 @@ header .material-icons {
   opacity: 0.95;
 }
 
+.img-projet5 {
+    width: 60%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
 
 
 
